@@ -5,6 +5,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class Application {
+  private Map<String,Object> cache=new HashMap<String,Object>()
+//local cache
 
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
@@ -13,6 +15,9 @@ public class Application {
 		run.close(){
 			
 		}
+public void loadDataToCache(){
+//logic
+}
 		}
 	}
 
