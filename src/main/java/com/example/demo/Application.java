@@ -14,6 +14,10 @@ public class Application {
 		SpringApplication.run(Application.class, args);
 		//changes for his-134
                int a=10;
+         //HIS-200 related changes
+          public void doProcess(){
+
+            }
 		run.close(){
 			
 		}
