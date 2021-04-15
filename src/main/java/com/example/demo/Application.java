@@ -5,6 +5,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class Application {
+  private Map<String,Object> cache=new HashMap<String,Object>()
+//local cache
     private static final String REST_URL="https://www.equifax.com/getScores";
     //class level variable configure dilip
 
@@ -15,6 +17,9 @@ public class Application {
 		run.close(){
 			
 		}
+public void loadDataToCache(){
+//logic
+}
 		}
 	}
 
