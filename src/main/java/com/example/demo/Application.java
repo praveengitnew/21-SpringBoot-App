@@ -5,6 +5,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class Application {
+    private static final String REST_URL="https://www.equifax.com/getScores";
+    //class level variable configure dilip
 
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
